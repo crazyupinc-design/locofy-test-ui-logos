@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import LogoTitle from "./pages/logo-title";
+import LogoTitle1 from "./pages/logo-title";
 import { useEffect } from "react";
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<LogoTitle />} />
+      <Route path="/" element={<LogoTitle1 />} />
     </Routes>
   );
 }

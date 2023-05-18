@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import styles from "./logo-title.module.css";
-const LogoTitle: FunctionComponent = () => {
+const LogoTitle1: FunctionComponent = () => {
   return (
     <div className={styles.logoTitle}>
       <b className={styles.title}>Clients Section</b>
@@ -74,4 +74,4 @@ const LogoTitle: FunctionComponent = () => {
   );
 };
 
-export default LogoTitle;
+export default LogoTitle1;

@@ -6,4 +6,7 @@ body {
 :root {
   /* fonts */
   --font-inter: Inter;
+
+  /* Gaps */
+  --gap-29xl: 48px;
 }

@@ -5,35 +5,124 @@
   width: 560px;
 }
 .logoIcon {
-  max-width: 100%;
-  overflow: hidden;
   max-height: 100%;
+  width: 154px;
   object-fit: cover;
 }
 .logoWrapper {
+  display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
-.content,
-.logoTitle,
-.logoWrapper,
+.logoIcon1,
+.logoIcon2 {
+  max-height: 100%;
+  width: 113px;
+  object-fit: cover;
+}
+.logoIcon2 {
+  width: 101px;
+}
+.logoIcon3,
+.logoIcon4,
+.logoIcon5 {
+  max-height: 100%;
+  width: 107px;
+  object-fit: cover;
+}
+.logoIcon4,
+.logoIcon5 {
+  width: 124px;
+}
+.logoIcon5 {
+  width: 165px;
+}
+.logoWrapper6,
+.logoWrapper7,
+.logoWrapper8,
 .logos {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .logos {
+  text-decoration: none;
   align-self: stretch;
+  height: 54px;
   flex-direction: row;
+  gap: var(--gap-29xl);
+}
+.logoWrapper6,
+.logoWrapper7,
+.logoWrapper8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+}
+.logoWrapper7,
+.logoWrapper8 {
+  left: 202px;
+}
+.logoWrapper8 {
+  top: 0.5px;
+  left: 363px;
+}
+.logoWrapperParent {
+  position: relative;
+  width: 464px;
+  height: 23.5px;
+}
+.logoWrapper10,
+.logoWrapper11 {
+  position: absolute;
+  top: 4px;
+  left: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: 48px;
+}
+.logoWrapper11 {
+  top: 6.5px;
+  left: 327px;
+}
+.logoWrapperGroup {
+  position: relative;
+  width: 492px;
+  height: 35.5px;
+}
+.logos1 {
+  text-decoration: none;
+  align-self: stretch;
+  height: 54px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-29xl);
+}
+.content,
+.logoTitle,
+.logos2 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logos2 {
+  text-decoration: none;
+  align-self: stretch;
+  display: none;
+  gap: var(--gap-29xl);
 }
 .content,
 .logoTitle {
-  flex-direction: column;
+  display: flex;
 }
 .content {
   align-self: stretch;
-  justify-content: center;
+  gap: 24px;
 }
 .logoTitle {
   position: relative;
@@ -42,10 +131,30 @@
   overflow: hidden;
   padding: 64px 24px;
   box-sizing: border-box;
-  justify-content: flex-start;
   gap: 32px;
   text-align: center;
   font-size: 18px;
   color: #000;
   font-family: var(--font-inter);
+}
+@media screen and (max-width: 960px) {
+  .logos {
+    display: none;
+  }
+  .logos1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .logos2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  .logos1 {
+    display: none;
+  }
+  .logos2 {
+    display: flex;
+    flex-direction: column;
+  }
 }

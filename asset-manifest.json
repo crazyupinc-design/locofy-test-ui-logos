@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/locofy-test-ui-logos/static/css/main.c185c1a0.css",
-    "main.js": "/locofy-test-ui-logos/static/js/main.0cff0fe9.js",
-    "static/js/787.1f92c7cb.chunk.js": "/locofy-test-ui-logos/static/js/787.1f92c7cb.chunk.js",
+    "main.css": "/locofy-test-ui-logos/static/css/main.c5c0dca6.css",
+    "main.js": "/locofy-test-ui-logos/static/js/main.2a5cbda0.js",
+    "static/js/787.a72a7e14.chunk.js": "/locofy-test-ui-logos/static/js/787.a72a7e14.chunk.js",
     "index.html": "/locofy-test-ui-logos/index.html",
-    "main.c185c1a0.css.map": "/locofy-test-ui-logos/static/css/main.c185c1a0.css.map",
-    "main.0cff0fe9.js.map": "/locofy-test-ui-logos/static/js/main.0cff0fe9.js.map",
-    "787.1f92c7cb.chunk.js.map": "/locofy-test-ui-logos/static/js/787.1f92c7cb.chunk.js.map"
+    "main.c5c0dca6.css.map": "/locofy-test-ui-logos/static/css/main.c5c0dca6.css.map",
+    "main.2a5cbda0.js.map": "/locofy-test-ui-logos/static/js/main.2a5cbda0.js.map",
+    "787.a72a7e14.chunk.js.map": "/locofy-test-ui-logos/static/js/787.a72a7e14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c185c1a0.css",
-    "static/js/main.0cff0fe9.js"
+    "static/css/main.c5c0dca6.css",
+    "static/js/main.2a5cbda0.js"
   ]
 }
